@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>HITCON Pacific 2016 - The Fifth Domain: Cyber | Homeland Security</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta name="description" content="Dec. 1-2 2016 in 台北文創。最具代表資安盛會HITCON Pacific 2016即將開始！與CTF全球10強總決戰共同舉辦，企盼您的加入，點亮台灣資安軟硬實力。"/>
+    <meta name="keywords" content="主辦單位 (Organizing Committee)： 台灣駭客協會 Hacks in Taiwan Association CHROOT Security Group  iThome 電週文化事業"/>
+    <meta property="og:title" content="HITCON Pacific 2016 - The Fifth Domain: Cyber | Homeland Security"/>
+    <meta property="og:description" content="Dec. 1-2 2016 in 台北文創。最具代表資安盛會HITCON Pacific 2016即將開始！與CTF全球10強總決戰共同舉辦，企盼您的加入，點亮台灣資安軟硬實力。"/>
+    <meta property="og:image:type" content="image/png"/>
+    <meta property="og:image:width" content="611"/>
+    <meta property="og:image:height" content="366"/>
+    <link rel="image_src" href="https://hitcon.org/2016/pacific/0composition/images/v160921/kv.jpg"/>
+    <meta property="og:image" content="https://hitcon.org/2016/pacific/0composition/images/v160921/kv.jpg"/>
+    <meta property="og:url" content="https://hitcon.org/2016/pacific/"/>
+    <link rel="stylesheet" href="0composition/style/bootstrap.min.css"/>
+    <link rel="stylesheet" href="0composition/style/layout.css"/>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/pixi.js/3.0.11/pixi.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script src="0composition/scripts/layout.js"></script>
+    <link rel="stylesheet" href="0composition/fancybox/source/jquery.fancybox.css"/>
+    <script src="0composition/fancybox/source/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+    <script src="0composition/fancybox/source/jquery.fancybox.pack.js"></script>
+    <style>
+      .logoimg{
+          padding-top:15px;
+          padding-bottom:15px;
+      }
+      .fancybox-skin{
+          background-color:rgba(0,0,0,0.8);
+          color:#fff;
+      }
+    </style>
+    <script>
+      $(document).ready(function() {
+            $(".fancybox").fancybox({
+              maxWidth  : 800,
+              maxHeight : 800,
+              fitToView : false,
+              width   : '90%',
+              height    : '90%',
+              autoSize  : false,
+              closeClick  : false,
+              padding : 5,
+      
+              });
+        });
+    </script>
+  </head>
+  <body class="agenda">
+    <header class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="website--title">
+            <h1>HITCON Pacific 2016 - The Fifth Domain: Cyber | Homeland Security</h1>
+            <p>12.1-2 @ 台北文創大樓6F</p>
+          </div>
+          <div id="kvsize">
+            <div id="kvparent"></div>
+          </div>
+          <div id="sectitle"><span>HITCON PACIFIC 2016</span></div>
+          <nav class="main_nav">
+            <button id="menuicon"><span class="_svgbox"><span class="svgchild">
+                  <!--漢堡svg，開始-->
+                  <svg version="1.1" viewbox="0 0 35 31">
+                    <path id="menu--line0" fill="#cccccc" d="M2.5,13h30c1.381,0,2.5,1.119,2.5,2.5S33.881,18,32.5,18h-30C1.119,18,0,16.881,0,15.5S1.119,13,2.5,13z" transform="translate(0,-10) rotate(0,17.5,15.5)"></path>
+                    <path id="menu--line1" fill="#cccccc" d="M2.5,13h30c1.381,0,2.5,1.119,2.5,2.5S33.881,18,32.5,18h-30C1.119,18,0,16.881,0,15.5S1.119,13,2.5,13z" opacity="1"></path>
+                    <path id="menu--line2" fill="#cccccc" d="M2.5,13h30c1.381,0,2.5,1.119,2.5,2.5S33.881,18,32.5,18h-30C1.119,18,0,16.881,0,15.5S1.119,13,2.5,13z" transform="translate(0,10) rotate(0,17.5,15.5)"></path>
+                  </svg>
+                  <!--漢堡svg，結束--></span></span></button>
+            <ul id="posmenu" class="_clear_ul">
+              <li class="default_btn"><a href="index.htm"><span>首頁</span></a></li>
+              <li class="reg_btn"><a href="registration.htm"><span>報名</span></a></li>
+              <li class="agenda_btn"><a href="agenda.htm"><span>議程與講師</span></a></li>
+              <li class="training_btn"><a href="training.htm"><span>HITCON Training</span></a></li>
+              <li class="partner_btn"><a href="partner.htm"><span>贊助商</span></a></li>
+              <li class="action_large_btn"><a href="action.htm"><span>現場活動及好康</span></a></li>
+              <li class="history_btn"><a href="history.htm"><span>大會歷史</span></a></li>
+              <li class="location_btn"><a href="location.htm"><span>場地資訊</span></a></li>
+              <li class="history_btn"><a href="en/index.htm"><span>English</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 _t-c">
+          <h1 style="color:#ccfc8d">議程與講師</h1>
+        </div>
+      </div>
+      <div class="row seminar_nav">
+        <div class="col-xs-12 _t-c">
+          <ul>
+            <li><a href="javascript:" class="btn_agenda">議程表</a></li>
+            <li><a href="javascript:" class="btn_speaker">精彩議程介紹</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 _t-c">
+          <h2 id="agendazone">議程表</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div id="day1" class="col-xs-12 day1">
+          <h2>Day 1 (12/1) <a href="javascript:" class="gotoday2">跳到第二天 12/2 →</a></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_bold">08:20 - 09:00</p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p>來賓報到</p>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">09:00 - 09:10</p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p class="agenda_bold"><span class="r0">R0</span></p>
+          <p>Opening</p>
+          <p class="agenda_bold">HITCON 總召 TT</p>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">09:10 - 09:20</p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p class="agenda_bold"><span class="r0">R0</span></p>
+          <p>致詞嘉賓</p>
+          <p class="agenda_bold">總統 蔡英文</p>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">09:20 - 09:25</p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p class="agenda_bold"><span class="r0">R0</span></p>
+          <p>致詞嘉賓</p>
+          <p class="agenda_bold">招卓敏 - 思科全球副總裁暨台灣、香港及澳門董事總經理</p>
+          <p>Barbara Chiu - Vice President &amp; Managing Director of Cisco Taiwan, Hong Kong and Macau</p>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">09:25 - 10:00</p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p class="agenda_bold"><span class="r0">R0</span></p>
+          <p><a href="0composition/pdf/1201/1201 R0 0925 a bright new dawn of security.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les25" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">A Bright New Dawn of Security: Comprehensive Threat Intelligence - Worldwide case study</span></a></p><a href="#les25" class="fancybox">
+            <p class="agenda_bold">Earl Carter, the Head of Threat Research, Cisco</p></a>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">10:10 - 10:50</p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p class="agenda_bold"><span class="r0">R0</span></p><a href="#les17" class="fancybox">
+            <p class="agenda_title">Cyber Security Roles and Responsibilities at the Nation Level</p>
+            <p class="agenda_bold">Doron Tamir, CSG ( cyber security group) Chairman</p></a>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">10:50 - 11:10</p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p>Break</p>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">11:10 - 11:50</p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p class="agenda_bold"><span class="r0">R0</span></p>
+          <p><a href="0composition/pdf/1201/1201 R0 1110 operation sentry stopper 公開版.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les22" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">Operation Sentry Stopper: A Long-Standing Cyber Espionage</span></a></p><a href="#les22" class="fancybox">
+            <p class="agenda_bold">Lenart Bermejo, Mingyen Hsieh, Razor Huang</p></a>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">11:50 - 13:20</p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p>Lunch</p>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">13:20 - 14:00</p>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r1">R1</h4><a href="#les12" class="fancybox">
+            <p class="agenda_title">Fire Walk With Me</p>
+            <p class="agenda_bold">Vitaly Kamluk</p></a>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r2">R2</h4>
+          <p><a href="0composition/pdf/1201/1201 R2 1320 cics breakdown.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les01" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">CICS Breakdown: Hack your way to transaction city</span></a></p><a href="#les01" class="fancybox">
+            <p class="agenda_bold">Ayoul3</p></a>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">14:10 - 14:50</p>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r1">R1</h4>
+          <p><a href="0composition/pdf/1201/1201 R1 1410 remote attacks on vehicles by exploiting vulnerable telematics.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les15" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">Remote Attacks on Vehicles by Exploiting Vulnerable Telematics</span></a></p><a href="#les15" class="fancybox">
+            <p class="agenda_bold">Dawei Lyu, Lei Xue</p></a>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r2">R2</h4>
+          <p><a href="0composition/pdf/1201/1201 R2 1410 would you need help to create privacy policies for apps.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les14" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">Would you Need Help to Create Privacy Policies for Apps?</span></a></p><a href="#les14" class="fancybox">
+            <p class="agenda_bold">Le Yu, Xiapu Luo</p></a>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">15:00 - 15:40</p>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r1">R1</h4>
+          <p><a href="0composition/pdf/1201/1201 R1 1500 why corrupted samples in recent apt.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les13" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">Why corrupted (?) samples in recent APT?－case of Japan and Taiwan</span></a></p><a href="#les13" class="fancybox">
+            <p class="agenda_bold">Suguru Ishimaru</p></a>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r2">R2</h4>
+          <p><a href="0composition/pdf/1201/1201 R2 1500 exploiting php7.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les10" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">Exploiting PHP7 - teaching a new dog old tricks     </span></a></p><a href="#les10" class="fancybox">
+            <p class="agenda_bold">Yannay Livneh</p></a>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">15:40 - 16:10</p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p>Break</p>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">16:10 - 16:50</p>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r1">R1</h4>
+          <p><a href="0composition/pdf/1201/1201 R1 1610 target identification through decoy file analysis.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les21" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">Target Identification through Decoy File Analysis</span></a></p><a href="#les21" class="fancybox">
+            <p class="agenda_bold">Ryan Olson</p></a>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r2">R2</h4>
+          <p><a href="0composition/pdf/1201/1201 R2 1610 winnti polymorphism.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les08" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">Winnti Polymorphism</span></a></p><a href="#les08" class="fancybox">
+            <p class="agenda_bold">Takahiro Haruyama</p></a>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">16:50 - 17:30</p>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r1">R1</h4>
+          <p><a href="0composition/pdf/1201/1201 R1 1650 blockchain security.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les26" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">Blockchain Security: From Curves to Contracts</span></a></p><a href="#les26" class="fancybox">
+            <p class="agenda_bold">陳君明 (Jiun-Ming Chen) / 劉世偉 (Alex Liu) </p></a>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r2">R2</h4>
+          <p><a href="0composition/pdf/1201/1201 R2 1650 fly me to the blackmoon 公開版.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les02" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">Fly me to the BLACKMOON</span></a></p><a href="#les02" class="fancybox">
+            <p class="agenda_bold">Kyoung-Ju Kwak</p></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <p> </p>
+          <p> </p>
+        </div>
+      </div>
+      <div class="row">
+        <div id="day2" class="col-xs-12 day1">
+          <h2>Day 2 (12/2) <a href="javascript:" class="gotoday1">跳到第一天 12/1 →</a></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_bold">08:20 - 08:50</p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p>來賓報到</p>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_bold">08:50 - 09:30</p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p class="agenda_bold"><span class="r0">R0</span></p>
+          <p><a href="0composition/pdf/1202/1202 R0 0850 security in a never-ending story.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les28" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">Security is a Never-ending Story</span></a></p><a href="#les28" class="fancybox">
+            <p class="agenda_bold">Katie Moussouris, the Founder and CEO of Luta Security</p></a>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_bold">09:30 - 10:10</p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p class="agenda_bold"><span class="r0">R0</span></p>
+          <p><a href="0composition/pdf/1202/1202 R0 0930 an intelligance-driven approach to cyber defense.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les27" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">An Intelligence-Driven Approach to Cyber Defense</span></a></p><a href="#les27" class="fancybox">
+            <p class="agenda_bold">PeiKan Tsung (PK), Chief Cyber Researcher, Verint Systems(Taiwan)</p></a>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_bold">10:10 - 10:30</p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p>Break</p>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">10:30 - 11:10</p>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r1">R1</h4>
+          <p><a href="0composition/pdf/1202/1202 R1 1030 microsoft malware classification challenge.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les04" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">基於機器學習的惡意軟體分類實作：Microsoft Malware Classification Challenge 經驗談</span></a></p><a href="#les04" class="fancybox">
+            <p class="agenda_bold">miaoski, ch0upi</p></a>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r2">R2</h4><a href="#les24" class="fancybox">
+            <p class="agenda_title">Cybersecurity Strategy in Japan</p>
+            <p class="agenda_bold">Mitsuaki ASHIDA</p></a>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">11:20 - 12:00</p>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r1">R1</h4>
+          <p><a href="0composition/pdf/1202/1202 R1 1120 why todays security researchers cannot just publish vulnerabilities.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les18" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">Why today's security researchers cannot just publish vulnerabilities</span></a></p><a href="#les18" class="fancybox">
+            <p class="agenda_bold">Noam Rathaus</p></a>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r2">R2</h4><a href="#les07" class="fancybox">
+            <p class="agenda_title">Evaluation of Static Features for Mach-O Sample in Classification Task</p>
+            <p class="agenda_bold">Spencer Hsieh, Pin Wu, Haoping Liu</p></a>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_bold">12:00 - 13:20</p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p>Lunch</p>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">13:20 - 14:00</p>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r1">R1</h4><a href="#les30" class="fancybox">
+            <p class="agenda_title">一銀 ATM 盜領案科技偵查實錄</p>
+            <p class="agenda_bold">刑事警察局 (偵查第九大隊)</p></a>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r2">R2</h4>
+          <p><a href="0composition/pdf/1202/1202 R2 1320 the challenge and future of government cyber security.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les31" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">The Challenge and Future of Government Cyber Security</span></a></p><a href="#les31" class="fancybox">
+            <p class="agenda_bold">台北市政府資訊局局長 李維斌博士</p></a>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">14:10 - 14:50</p>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r1">R1</h4><a href="#les20" class="fancybox">
+            <p class="agenda_title">Security x LINE Platform</p>
+            <p class="agenda_bold">Nikolay Elenkov</p></a>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r2">R2</h4>
+          <p><a href="0composition/pdf/1202/1202 R2 1410 memory war.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les23" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">Memory Wars: 對記憶體攻擊手法與防禦技術的探討</span></a></p><a href="#les23" class="fancybox">
+            <p class="agenda_bold">Leo Liaw</p></a>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_bold">14:50 - 15:10</p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p>Break</p>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">15:10 - 15:50</p>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r1">R1</h4><a href="#les19" class="fancybox">
+            <p class="agenda_title">Cyber Incident Response Model in Korea</p>
+            <p class="agenda_bold">Jin-Wan Park, Thomas (Jee-Ho) Kim</p></a>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r2">R2</h4>
+          <p><a href="0composition/pdf/1202/1202 R2 1510 automatic binary exploitation and patching using mechanical shellphish.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les11" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">Automatic Binary Exploitation and Patching using Mechanical [Shell] Phish</span></a></p><a href="#les11" class="fancybox">
+            <p class="agenda_bold">Antonio Bianchi</p></a>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">16:00 - 16:40</p>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r1">R1</h4>
+          <p><a href="0composition/pdf/1202/1202 R1 1600 lurk, carbanak and attacks on banking infrastructure.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les29" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">Lurk, Carbanak and Attacks on Banking Infrastructure</span></a></p><a href="#les29" class="fancybox">
+            <p class="agenda_bold">Fyodor Yarochkin, Vladimir Kropotov</p></a>
+        </div>
+        <div class="col-xs-12 col-md-5 col-lg-5">
+          <h4 class="r2">R2</h4>
+          <p><a href="0composition/pdf/1202/1202 R2 1600 fractured backbones.pdf" target="_blank"><img src="0composition/images/pdf-icon.png" title="PDF"/></a><a href="#les16" class="fancybox"><span style="margin-left:.5em;" class="agenda_title">Fractured Backbones – Incidents Detection and Forensics in Telco Networks</span></a></p><a href="#les16" class="fancybox">
+            <p class="agenda_bold">Vladimir Kropotov, Dmitry Kurbatov, Sergey Puzankov</p></a>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_time">16:50 - 17:30</p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p class="agenda_bold"><span class="r0">R0</span></p>
+          <p>Panel Discussion</p>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_bold">17:30 - 17:50</p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p class="agenda_bold"><span class="r0">R0</span></p>
+          <p>閉幕致詞與抽獎</p>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <p class="agenda_bold">17:50 - 19:00</p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p>Cocktail Party</p>
+        </div>
+      </div>
+      <hr class="_hrstyle01"/>
+      <div class="gcomesoon">
+        <div style="display:table;width:100%;height:100%;">
+          <div style="display:table-cell;vertical-align: middle;text-align:left;"><strong>※ 議程內容如有更新請以現場公告為準。</strong>
+            <p> </p>
+            <p>         </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 _t-c">
+          <h2 id="speakerzone">精彩議程介紹</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="speakerset">
+                  <!-- linklist item start-->
+<a href="#les01" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/Ayoul3.png" class="circle"/><span class="_d-b">Ayoul3</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">CICS Breakdown: Hack your way to transaction city</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les01" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Ayoul3.png" class="circle"/><span class="_d-b">Ayoul3 </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail"><p>Ayoul3 is a pentester working for Wavestone, a consulting firm based in France.</p><p>He got interested in Mainframe security in 2014 when, during an audit, he noticed the big security gap between this platform and standard systems like Windows and Unix.</p>
+<p>A gap that does not make much sense because z/OS has been around for a while and is used by most major companies to perform critical business operations: wire transfer, claim refunds, bookings, etc.</p><p>If you want to test some of the tools showcased during the talk, you can check out his tools: <a href='https://github.com/ayoul3/' target='_blank'>https://github.com/ayoul3/</a> or blog <a href='https://zospentest.tumblr.com' target='_blank'>https://zospentest.tumblr.com</a></p></span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">CICS Breakdown: Hack your way to transaction city</div>
+                      <div class="spinfo"><p>CICS is the mostly widely deployed transaction system in the world with more than 20 billion transactions a day. It is mainly deployed on IBM z/OS systems.</p>
+<p>Indeed for every person that uses an ATM, there is a good to fair chance that multiple CICS applications are involved somewhere in the chain of request. Same goes for banking operators when creating a new account, handling refunds, taxes, etc.</p>
+<p>The talk will demystify this critical system, explain how it works but mostly how to abuse some of its functions in order to illegitimately read and write business files, access other applications, remotely execute code with zero authentication...</p>
+<p>The tool Cicspwn will be presented to help pentesters check CICS's security and exploit all the key weaknesses detailed above (<a href='http://github.com/ayoul3/cicspwn' target='_blank'>http://github.com/ayoul3/cicspwn</a>)</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les02" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/Kyoungju_Kwak.png" class="circle"/><span class="_d-b">Kyoung-Ju Kwak</span></div>
+                      <div class="item"><img src="0composition/images/speaker/MinChang-Jang.png" class="circle"/><span class="_d-b">MinChang Jang<br/>(aka osiris)</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">Fly me to the BLACKMOON</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les02" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Kyoungju_Kwak.png" class="circle"/><span class="_d-b">Kyoung-Ju Kwak </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Kyoung-Ju Kwak is a Security Researcher at Computer Emergency Analysis Team, FSI (Financial Security Institute). He is currently working on a Threat Analysis. He dissects potential threats against the Korea Financial Industry. He audited National SCADA system and the Ministry of Land with "the Board of Audit and Inspection of Korea" as an Auditor General in 2016. He currently acts as a member of National Police Agency Cyber-crime Advisory Committee.</span></div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/MinChang-Jang.png" class="circle"/><span class="_d-b">MinChang Jang<br/>(aka osiris) </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">MinChang Jang (aka osiris) is currently working in threat analysis at Computer Emergency Analysis Team, FSI (Financial Security Institute) and a graduate student pursuing a major in cyber warfare at SANE LAB (Prof. SeungJoo Kim), Korea University. He's served in the Korea Navy CERT for over two years. He's interested in malware analysis, collecting embedded devices, hunting bugs and exploiting them.</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Fly me to the BLACKMOON</div>
+                      <div class="spinfo"><p>I have been tracing Online Banking Malware (a.k.a Pharming) specialized in Korean Banking Environment from 2013. In the middle of 2013, the pharming malware distribution sites, using Drive-by-Download technique, were rapidly increased so the number of victims was increased as well. </p>
+<p>The group has been dubbed "Blackmoon" due to the hardcorded string identified in the sample. There are several groups who create pharming malware but" Blackmoon"  was one of the most sophisticated and active group. </p>
+<p>In 2015, I had a chance to access that C&C server and I shared this information with law enforcement. Finally, we succeeded to take down the sever. We discovered a massive database. </p>
+<p>The number of victims and malware distribution rate were extremely decreased after this investigation. </p>
+<p>However, "Blackmoon" is being active again and pharming malware is getting more and more complicated recently. </p>
+<p>It's time to cooperate to take down the pharming malware again.</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les04" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/miaoski.png" class="circle"/><span class="_d-b">miaoski </span></div>
+                      <div class="item"><img src="0composition/images/speaker/ch0upi.png" class="circle"/><span class="_d-b">ch0upi </span></div>
+                    </div>
+                    <div class="speakertitle _t-c">基於機器學習的惡意軟體分類實作：Microsoft Malware Classification Challenge 經驗談</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les04" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/miaoski.png" class="circle"/><span class="_d-b">miaoski  </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Philippe Lin (miaoski) 服務於趨勢科技，工作範圍包括資料分析、機器學習、未來威脅研究等，也參加過 Open Computing Project 的 BIOS 開發。業餘喜歡玩電路、養貓。目前是阿美語萌典的維護人員。</span></div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/ch0upi.png" class="circle"/><span class="_d-b">ch0upi  </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail"><p>Ricky Chou (ch0upi) 是趨勢科技核心技術部的技術經理。<br/>工作內容著重在資料分析、威脅情報服務、及應用人工智慧與機器學習來解決實務上的問題。<br/>曾在 2014 年及 2016 年參與全球資料探勘領域最知名的 KDDCup 競賽，皆取得前 10 名的佳績。<br/>也參與趨勢科技的電腦圍棋人工智慧專案 GoTrend，於 2015 年日本電腦圍棋競賽 UEC Cup 取得第六名的成績。</p></span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">基於機器學習的惡意軟體分類實作：Microsoft Malware Classification Challenge 經驗談</div>
+                      <div class="spinfo"><p>將惡意軟體分類成各個 malware family 的工作，一直以來都仰賴熟練的逆向工程師擔綱，但巨量的資料及愈來愈多的變種，讓人工難以追上病毒的速度。因此 Microsoft 在 2015 年連同 WWW 2015，在 Kaggle  機器學習競賽平台上舉辦了惡意軟體分類競賽。此外，BSidesLV 2016 也出現了將 VirusShare 上超過二千萬個病毒樣本，進行自動分類的講題，顯見自動的惡意軟體分類仍然是尚待改進的題目。</p>
+<p>有鑑於機器學習仍具有一定的門檻，本議程希望向有興趣的資安研究人員，以實際的比賽過程，分享從比賽初始、改善模型、一直到結束前避免 overfitting 以免在 private board 失分的做法及經驗，並配合回顧本競賽優勝隊伍的解題方式，檢討我們的模型，提出可能改善的方向。</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les07" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c _three">
+                      <div class="item"><img src="0composition/images/speaker/Spencer_Hsieh.png" class="circle"/><span class="_d-b">Spencer Hsieh</span></div>
+                      <div class="item"><img src="0composition/images/speaker/Pin_Wu.png" class="circle"/><span class="_d-b">Pin Wu</span></div>
+                      <div class="item"><img src="0composition/images/speaker/Haoping_Liu.png" class="circle"/><span class="_d-b">Haoping Liu</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">Evaluation of Static Features for Mach-O Sample in Classification Task </div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les07" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Spencer_Hsieh.png" class="circle"/><span class="_d-b">Spencer Hsieh </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Spencer Hsieh is a threat researcher of Trend Micro. He joined the Threat Solution Research team of Trend Micro in 2009. His areas of expertise include cyber threat, incident response, investigation of target attacks, malware analysis and exploitation techniques. His current research focuses on areas of emerging threats and target attacks.</span></div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Pin_Wu.png" class="circle"/><span class="_d-b">Pin Wu </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Pin Wu is a machine learning engineer at Trend Micro. His research interests include machine learning algorithms and data analytics applications.</span></div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Haoping_Liu.png" class="circle"/><span class="_d-b">Haoping Liu </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Haoping Liu joined Trend Micro in 2010, and focusing on big data analytics in security applications and love to find data insights to solve critical problem. Currently his researches include big data analytics and machine learning on malware classification and social media account reputation.</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Evaluation of Static Features for Mach-O Sample in Classification Task </div>
+                      <div class="spinfo"><p>Mach-O is the format for executable file of Mac OS X. With the increase of market share of Mac OS X, the malware for Mac OS X also recorded an unprecedented growth in the past few years. In this presentation, we present a study of classifying Mac OS X malware with a set of features extracted from Mach-O metadata and its derivatives on our samples collected from VirusTotal during late 2014 and early 2016. There are some prior researches that attempt to classify PE executable files by the metadata extracted from PE files. Similar to the PE format, Mach-O format also provides a variety of features for classification. We collected all the Mach-O samples submitted to VirusTotal during late 2014 and early 2016. After removing files that are not compiled for i386 or X86_64, we extracted metadata from the collected Mach-O samples. Meta information from sample files, such as segment and section structures, dynamic libraries, etc., are used as features for classifying Mac OS X samples. In order to understand the effectiveness of these features, we divided our sample collection into two parts. Samples collected during Sept 2014 and Oct 2015 are used as training samples, and samples after Oct 2015 are used as testing samples.</p>
+<p>This study summarizes the statistical changes in view of Mac OS X malware families, and the structure trending between benign and malicious samples between late 2014 and early 2016. With our collection of more than 600,000 samples and over 4,000 malicious samples, our feature evaluation is based on composition analysis of different malware families in both aspects of meta and derivative features. This work uses a variety of classification algorithms to generate predictive models with the training dataset, and to analyze the results with testing samples and their difference from AV vendors' detections on VirusTotal. We also discuss the effectiveness of selected features, and observations on our sample collection.</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les08" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/Takahiro-Haruyama.png" class="circle"/><span class="_d-b">Takahiro Haruyama</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">Winnti Polymorphism</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les08" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Takahiro-Haruyama.png" class="circle"/><span class="_d-b">Takahiro Haruyama </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Takahiro Haruyama is a reverse engineer and a member of Symantec's Managed Adversary and Threat Intelligence (MATI) team. He has spoken or taught hands-on class at several famous conferences including Black Hat Briefings USA/Europe/Asia, SANS Digital Forensics and Incident Response Summit, the Computer Enterprise and Investigations Conference, Digital Forensics Research Conference Europe, FIRST Technical Colloquium, RSA Conference Japan.</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Winnti Polymorphism</div>
+                      <div class="spinfo"><p>Winnti is malware used by Chinese threat actor for cybercrime and cyber espionage since 2009. The behavior of Winnti components is well described in the past analysis report by Novetta, but currently there are much more variants with different behavior from it. I will share my RE findings not explained in public reports including:</p>
+<p>- Winnti worker component supporting SMTP protocol,</p>
+<p>- Winnti as a loader for other malware family,</p>
+<p>- rootkit driver making covert channels by hooking NDIS TCPIP protocol handlers and,</p>
+<p>- hack tools using the same API hash calculation as Winnti components. </p>
+<p>The configuration data of Winnti is important for threat intelligence because campaign IDs indicating target organizations or countries to the actor are included. Moreover, as Kaspersky pointed out in the blog, inline 64-bit kernel drivers are sometimes signed with stolen certificates. The certificates are also useful to identify already-compromised targets. I checked about 170 Winnti samples to extract the configurations and certificates. Based on the work, I will show Winnti targets are not only game and pharmaceutical industries, but also chemical, e-commerce, electronics and telecommunications ones.</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les10" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/Yannay-Livneh.png" class="circle"/><span class="_d-b">Yannay Livneh</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">Exploiting PHP7 - teaching a new dog old tricks</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les10" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Yannay-Livneh.png" class="circle"/><span class="_d-b">Yannay Livneh </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Yannay has been lead security researcher at Check Point Software Technologies LTD for the past year. Before joining Check Point, Yannay served as a security researcher and developer in the IDF for four years. Yannay holds a first degree in computer science from Bar Ilan University, which he graduated at the age of 18.</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Exploiting PHP7 - teaching a new dog old tricks</div>
+                      <div class="spinfo"><p>PHP is the most prominent web server-side language used today. Although secure coding practices are used when developing in PHP, they can′t mitigate vulnerabilities in the language itself. Since PHP is written in C, it is exposed to vulnerabilities found in projects written in a low-level language, such as memory-corruption vulnerabilities, which are common when manipulating data formats. PHP-7 is a new implementation of the language, and while memory corruption bugs exist in this version as well, none of the exploitation primitives from the previous version are working (e.g. @i0n1c presentation from BH2010).</p>
+<p>In this talk, I will discuss the memory internals of PHP7 from exploiter's and vulnerability researcher's perspective. I will explain newly found vulnerabilities and bugs. Lastly, I will demonstrate how to exploit a class of bugs in PHP-7, using a real vulnerability that was found in the unserialize mechanism as an example and present re-usable primitives for exploitation.</p>
+<p>The internals of the language implementation changed quite dramatically, and now it's harder to exploit memory corruption bugs. The new zval system prefers embedding over pointing to members and the allocation mechanism has gone through a complete re-write, removing metadata. Thus, leading to some interesting bugs and vulnerabilities. Also, the overall result is less primitives and less control over crafted data. unserialize is a data manipulation and object instantiation mechanism in PHP which is prone to memory corruption vulnerabilities.</p>
+<p>For the first time, we have managed to implement a remote exploit of a real world bug in PHP-7unserialize mechanism.</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les11" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/Antonio-Bianchi.png" class="circle"/><span class="_d-b">Antonio Bianchi</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">Automatic Binary Exploitation and Patching using Mechanical [Shell] Phish</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les11" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Antonio-Bianchi.png" class="circle"/><span class="_d-b">Antonio Bianchi </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail"><p>He is a PhD student at UCSB (University of California, Santa Barbara), working, under the supervision of professors Christopher Kruegel and Giovanni Vigna, in the Computer Security Group (seclab).</p>
+<p>He earned a Bachelor and a Master degree in Computer Engineering at Politecnico di Milano, and a Master Degree in Computer Science at the University of Illinois at Chicago.</p>
+<p>He worked on different projects about mobile security and he is also very interested in anything related to reverse engineering and low-level binary analysis.</p>
+<p>He played many different CTF security competitions as a member of the Shellphish hacking group, qualifying multiple times for the DEFCON CTF and, recently, for the DARPA Cyber Grand Challenge.</p></span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Automatic Binary Exploitation and Patching using Mechanical [Shell] Phish</div>
+                      <div class="spinfo"><p>Similarly to autonomous driving cars, autonomous hacking is becoming a reality.</p>
+<p>To kick-start research in this field, DARPA organized the Cyber Grand Challenge (CGC), a security competition in which participants had to develop a system able to automatically exploit and patch binaries.</p>
+<p>In 2014, Shellphish signed up for the CGC and in 2015 we qualified for the final event, which was help on August 2016.</p>
+<p>During the final event, our system, named the Mechanical Phish, faced off against six other competitors and fought well, winning third place and placing Shellphish as the top fully-academic team.</p>
+<p>Just after the CGC final event, we released on GitHub the entire code constituting Mechanical Phish: an impressive amount of more than 100,000 lines of Python code!</p>
+<p>In this talk, we will introduce Mechanical Phish, presenting the challenges we tackled and the solutions we implemented while developing it.</p>
+<p>We will also demonstrate how the released code can be used to automatically find bugs, write exploits, and patch vulnerable binaries.</p>
+<p>Mechanical Phish uses a combination of symbolic execution (powered by angr, the binary analysis platform developed at UCSB) and fuzzing to find bugs in programs.</p>
+<p>Then, it automatically generates an exploit able to subvert the execution of the analyzed binary by taking advantage of the found bugs.</p>
+<p>In addition, our system is able to patch existing binaries making them resilient against attackers with minimal performance impact.</p>
+<p>Finally, given the hardware-setup and the no-human-intervention policy of the CGC final competition, Mechanical Phish has been developed as an extremely reliable, efficient, and fault-tolerant distributed system.</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les12" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/Vitaly-Kamluk.png" class="circle"/><span class="_d-b">Vitaly Kamluk</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">Fire Walk With Me</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les12" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Vitaly-Kamluk.png" class="circle"/><span class="_d-b">Vitaly Kamluk </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Vitaly has been involved in malware research at Kaspersky Lab since 2005. In 2008, he was appointed Senior Antivirus Expert, before going on to become Director of the EMEA Research Center in 2009. He spent a year in Japan focusing on major local threats affecting the region. In 2014, he was seconded to the INTERPOL Global Complex for Innovation in Singapore, where he worked in the INTERPOL Digital Crime Center specializing in malware reverse engineering, digital forensics and cybercrime investigation. Now he is heading team of APAC security researchers at Kaspersky Lab.</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Fire Walk With Me</div>
+                      <div class="spinfo"><p>A company from the financial industry based out of Australia was alerted by Kaspersky Lab products in regards to suspicious activity in their network. Based on cooperation with the company, which kindly agreed to provide us with remote access to the system where our product registered the activity, we found no active infection in the memory of the system. However, we managed to find the source of the AV alert, which was deeper than we initially thought.</p>
+<p>This talk will show a case study of incident investigation and response of a major infection we have recently discovered. Through a case study, best practices in digital forensics and incident response will be shared based on our experience.</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les13" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/Suguru-Ishimaru.png" class="circle"/><span class="_d-b">Suguru Ishimaru</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">Why corrupted (?) samples in recent APT?－case of Japan and Taiwan</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les13" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Suguru-Ishimaru.png" class="circle"/><span class="_d-b">Suguru Ishimaru </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">In 2008, Suguru Ishimaru entered Kaspersky Labs Japan as a researcher of Japan office. He had been in charge of collecting and analyzing threat information such as Malware, Spam and Phishing in cyberspace. Subsequently, he has been joining in Global Research and Analysis Team (GReAT) APAC to research Advanced Persistant Thread (APT) and recent cyber threats in APAC region.</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Why corrupted (?) samples in recent APT?－case of Japan and Taiwan</div>
+                      <div class="spinfo"><p>Recently, various targeted attacks have been analyzed for the methods of infection. Such techniques of malware infection have been published by Anti-Virus vendors and security researchers for the protection. On the other hand, the malware used in the recent attacks have been more complicated and sophisticated.</p>
+<p>As one of the example, we confirmed several advanced Emdivi t20 in the Bluetermite APT. At that time, we had thought the samples were corrupted because its does not work in any environment. To be more precise, Emdivi family stores encrypted C2 info, mutexes, md5sum of backdoor commands, and etc. Emdivi family decrypts each encrypted data by a specific key, whereas the suspicious corrupted (?) sample Emdivi t20 used a SID of victim machine to generate the specific decrypt key. That means, the analyzing had been impossible because could not generate the exact decrypt key if we do not know the SID of the victim machine. (<a href='https://securelist.com/blog/research/71876/new-activity-of-the-blue-termite-apt/' target='_blank'>https://securelist.com/blog/research/71876/new-activity-of-the-blue-termite-apt/</a>) </p>
+<p>The new techniques ware actually very simple but it works effectively. In our research of cyber espionage activities targeting to Taiwan and Japan, some samples still using very similar and simple technology. We introduce the details of the research about these APT, as well as some episode, how to solve the problem, and our approaches along with the description of the anti-analysis technology using actual samples.</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les14" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c _three">
+                      <div class="item"><img src="0composition/images/speaker/Le-Yu.png" class="circle"/><span class="_d-b">Le Yu</span></div>
+                      <div class="item"><img src="0composition/images/speaker/Xiapu-LUO.png" class="circle"/><span class="_d-b">Xiapu Luo</span></div>
+                    </div>
+                    <div>共同發表人：Chenxiong Qian、 Lei Xue
+                    </div>
+                    <div class="speakertitle _t-c">Would you Need Help to Create Privacy Policies for Apps?</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les14" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Le-Yu.png" class="circle"/><span class="_d-b">Le Yu </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Le Yu is a PhD student in the Hong Kong Polytechnic University. He has been working on system security for more than 3 years and published several papers in well-known security conferences. His current research focuses on mobile security.</span></div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Xiapu-LUO.png" class="circle"/><span class="_d-b">Xiapu Luo </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Xiapu Luo is a research assistant professor in the Department of Computing, the Hong Kong Polytechnic University. He has been working on information security for more than 10 years and published a number of papers in top security conferences. His current research interests include Android security and privacy, IoT Security, Network and System Security, Internet Measurement, and Mobile Networks.</span></div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/nopic.png" class="circle"/><span class="_d-b">Chenxiong Qian </span>(共同發表人)
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Chenxiong Qian is a PhD student in the Georgia Institute of Technology. He has been working on system security for more than 5 years. His current research focuses on system security.</span></div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Lei-Xue.png" class="circle"/><span class="_d-b">Lei Xue </span>(共同發表人)
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Lei Xue is a PhD student in the Department of Computing, the Hong Kong Polytechnic University. He has been working on network and system security for more than 5 years and published several papers in well-known security conferences. His current research interests include network and mobile security.</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Would you Need Help to Create Privacy Policies for Apps?</div>
+                      <div class="spinfo"><p>We conduct a systematic study on mobile apps' privacy policies and identify three kinds of common problems in them. To automatically check whether an app's privacy policy has any problems, we develop a tool named PPChecker that analyzes information from multiple sources for the detection. The result shows that many privacy policies have at least one problem. Therefore, to help developers/stakeholders of apps create correct and readable privacy policy, we develop another tool named AutoPPG that can generate privacy policy templates automatically by analyzing apps. In this talk, we first introduce the background knowledge of app's privacy policy. Then, we detail how to identify the problems in apps' privacy policies. After that, we describe how to generate privacy policy templates automatically. Finally, we conclude the talk with suggestions to users, developers, and stakeholders of apps.</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les15" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c _three">
+                      <div class="item"><img src="0composition/images/speaker/LYU-DAWEI.png" class="circle"/><span class="_d-b">Dawei Lyu</span></div>
+                      <div class="item"><img src="0composition/images/speaker/Lei-Xue.png" class="circle"/><span class="_d-b">Lei Xue</span></div>
+                    </div>
+                    <div>共同發表人：Le Yu、 Xiapu Luo
+                    </div>
+                    <div class="speakertitle _t-c">Remote Attacks on Vehicles by Exploiting Vulnerable Telematics</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les15" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/LYU-DAWEI.png" class="circle"/><span class="_d-b">Dawei Lyu </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Dawei Lyu is a research assistant in the Department of Computing, the Hong Kong Polytechnic University. He has been working on telematics and vehicle for more than 10 years and developed several commercial telematics systems. His current research focuses on vehicle security.</span></div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Lei-Xue.png" class="circle"/><span class="_d-b">Lei Xue </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Lei Xue is a PhD student in the Department of Computing, the Hong Kong Polytechnic University. He has been working on network and system security for more than 5 years and published several papers in well-known security conferences. His current research interests include network and mobile security.</span></div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Le-Yu.png" class="circle"/><span class="_d-b">Le Yu </span>(共同發表人)
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Le Yu is a PhD student in the Hong Kong Polytechnic University. He has been working on system security for more than 3 years and published several papers in well-known security conferences. His current research focuses on mobile security.</span></div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Xiapu-LUO.png" class="circle"/><span class="_d-b">Xiapu Luo </span>(共同發表人)
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Xiapu Luo is a research assistant professor in the Department of Computing, the Hong Kong Polytechnic University. He has been working on information security for more than 10 years and published a number of papers in top security conferences. His current research interests include Android security and privacy, IoT Security, Network and System Security, Internet Measurement, and Mobile Networks.</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Remote Attacks on Vehicles by Exploiting Vulnerable Telematics</div>
+                      <div class="spinfo"><p>We discover severe vulnerabilities in popular telematics systems, through which attackers can remotely replace their firmware with the malicious one and then launch attacks on the vehicles. We have confirmed these vulnerabilities through POC attacks on real vehicles. Moreover, we propose several approaches for fixing these vulnerabilities. We have informed the corresponding companies about the vulnerabilities and the fixing approaches with the help of HKCERT.</p>
+<p>In this talk, we first introduce the background knowledge of telematics and its attack surface. Then, we detail how to identify and exploit the vulnerability in two telematics systems. Moreover, we discuss how to fix this vulnerability.</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les16" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c _three">
+                      <div class="item"><img src="0composition/images/speaker/Vladimir_Kropotov.png" class="circle"/><span class="_d-b">Vladimir Kropotov</span></div>
+                      <div class="item"><img src="0composition/images/speaker/Kurbatov_Dmitry.png" class="circle"/><span class="_d-b">Dmitry Kurbatov</span></div>
+                      <div class="item"><img src="0composition/images/speaker/Sergey_Puzankov.png" class="circle"/><span class="_d-b">Sergey Puzankov</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">Fractured Backbones – Incidents Detection and Forensics in Telco Networks</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les16" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Vladimir_Kropotov.png" class="circle"/><span class="_d-b">Vladimir Kropotov </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail"><p>Vladimir was born in 1980. He holds a university degree in applied mathematics and information security. Active for over 15 years in information security projects and research, he previously built and led incident response teams at some of Fortune 500 companies. Vladimir has recently joined Trend Micro FTR team, but did this research as Positive Technologies, where he was head of Computer Security Incident Response Team (CSIRT) since 2014. He participates in various projects for leading financial, industrial, and telecom companies.</p>
+<p>Vladimir regularly appears at high-profile international conferences such as FIRST, CARO, HITB, Hack.lu, PHDays, ZeroNights, POC, Hitcon, and many others.</p></span></div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Kurbatov_Dmitry.png" class="circle"/><span class="_d-b">Dmitry Kurbatov </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail"><p>Head of Telecom Security Department, Positive Technologies</p>
+<p>Dmitry Kurbatov was born in Moscow in 1986. He holds a university degree in information security of telecommunications systems. Dmitry joined Positive Technologies in 2010 as an information security expert and now he specializes on telecom and mobile networks security. He is responsible for the product development (SS7 Attack Discovery and SS7 Security Scanner) as well as for services in audit of telecom and mobile networks security systems.</p></span></div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Sergey_Puzankov.png" class="circle"/><span class="_d-b">Sergey Puzankov </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail"><p>Telecom Security Expert, Positive Technologies</p>
+<p>Sergey was born in 1976. He graduated from Penza State University with a degree in automated data processing and management systems in 1998. Before joining Positive Technologies in 2012, he worked as a quality engineer at VimpelCom. Being a security expert in telecommunication systems at Positive Technologies, he is engaged in the research of signaling network security and in audits for international mobile operators.</p>
+<p>He is part of the team that revealed vulnerable points in popular two-factor authentication schemes using texts and demonstrated how easy it is to compromise Facebook, WhatsApp, and Telegram accounts. He is also a member of the SS7 Attack Discovery development team, a coauthor of Positive Technologies annual reports on telecommunication security.</p></span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Fractured Backbones – Incidents Detection and Forensics in Telco Networks</div>
+                      <div class="spinfo"><p>Telecom networks are often used as a backbones for other critical infrastructures, such as finance. Along with that SS7 networks are often transfer personal and sensitive information, including voice, messages and often used for second factor authentication. Such networks have always been targets for cyber criminals and mature actors, those looking to obtain paid services for free or at the expense of other subscribers, or eager to succeed on messengers, emails and other accounts hijacking. In this presentation, we will describe detection approaches and attacks that use SS7 vulnerabilities affecting telecom networks and related services. We will demonstrate how integration of payment systems with communication services can jeopardize the bank accounts of ordinary subscribers and make it easier for criminals to monetize attacks. Our demo will include transfer of money from electronic accounts.</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les17" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/Doron-Tamir.png" class="circle"/><span class="_d-b">Doron Tamir</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">Cyber Security Roles and Responsibilities at the Nation Level</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les17" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Doron-Tamir.png" class="circle"/><span class="_d-b">Doron Tamir </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">General Doron Tamir is a seasoned security and intelligence professional with vast experience in leading government and technology organizations. Doron was a founding member of the Israeli National Cyber Bureau in the Prime Minister Office, steering the nation's cyber security efforts. Doron served as the Senior Director of the Security Sector in the INCB, and also led the formation of the national cyber security command and control center, as well as the national cyber laboratory. Concurrently, Doron served as Director of International Cooperation, and laid the foundation for cooperation with the US Department of Homeland Security, as well as with similar organizations in Europe and Asia. Prior to the INCB, Doron held several senior roles in technology oriented organizations, among them are VP Marketing & Strategic Accounts at Ness Technologies, Founder and Managing Director at Corner Shot, and Strategic Consultant to the Israeli Aerospace Industries. Doron had a distinguished military career spanning over 2 decades in the Intelligence Corps and Special forces - as the Chief Intelligence Officer in the Israeli military, where he commanded numerous military units in all aspects of the intelligence field, from signal, visual, and human intelligence, through technology and cyber, to combat and special operations.</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Cyber Security Roles and Responsibilities at the Nation Level</div>
+                      <div class="spinfo"><p>A State should develop a multi-pillars national level cyber security strategy.</p>
+<p>It should include guidance and coordination of the national effort to secure cyberspace for the foreseen future by all stakeholders in the country, including government, defense agencies, academic research, business centers and the general public.</p>
+<p>In order to assure a sustainable resilience, the State must create a domestic eco-system which will encourage innovation, nurture human capital and give direction to the national research and development efforts.</p>
+<p>A true transformation must begin with a well-defined strategy out of which derives the structure and organization, which in turn, develops solutions in correlation and cooperation with the local industry and international business community.</p>
+<p>The role of the state on that matter is to develop the national cyber security ecosystem, act as the enabler and optimizer of the multi-vector efforts and develop and share new capabilities by boosting knowledge transfer between sectors.</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les18" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/Noam-Rathaus.png" class="circle"/><span class="_d-b">Noam Rathaus</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">Why today's security researchers cannot just publish vulnerabilities</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les18" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Noam-Rathaus.png" class="circle"/><span class="_d-b">Noam Rathaus </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Noam Rathaus has been working in the security field since the age of 13, he has written 4 books - on open source security and penetration testing, has found over 40 vulnerabilities in various software, wrote about third of the code base of Nessus when it was still Open Source and over 500 tests out of the 1000 tests it had at the that time. He has founded Beyond Security with his colleague Aviram Jenik in 1999 and has been working in the security field ever since.</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Why today's security researchers cannot just publish vulnerabilities</div>
+                      <div class="spinfo"><p>In today world there is a great difficulty for researchers to be researchers, during the lecture we will cover the problems faced by security researchers in getting their discoveries published and out there while not getting sued, getting paid and having fun out of the whole process. We will cover why there is a need in transparent vulnerability brokers and why bug bounties don't work.</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les19" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/Jin-Wan-Park.png" class="circle"/><span class="_d-b">Jin-Wan Park</span></div>
+                      <div class="item"><img src="0composition/images/speaker/Thomas-(Jee-Ho)-Kim.png" class="circle"/><span class="_d-b">Thomas (Jee-Ho) Kim</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">Cyber Incident Response Model in Korea</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les19" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Jin-Wan-Park.png" class="circle"/><span class="_d-b">Jin-Wan Park </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Jin-Wan Park, a director of KISA (Korea Internet & Security Agency, KrCERT/CC), has 15 years of experience in information security product evaluation, personal information protection and cyber incidents prevention and response. Also, he was in charge of software vulnerability (CV), cyber fraud and managing main operation of KrCERT/CC SOC. Currently, he is responsible for proactively detecting web-based malicious code.</span></div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Thomas-(Jee-Ho)-Kim.png" class="circle"/><span class="_d-b">Thomas (Jee-Ho) Kim </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Thomas Kim, a manager of KISA (Korea Internet & Security Agency, KrCERT/CC), has 10 years of experience in network, incident response and forensic analysis. Also his previous jobs are Cisco CSIRT and LG CNS in a field of financial sector. Currently, he is responsible for intelligence information gathering program and network dualization of KrCERT/CC.</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Cyber Incident Response Model in Korea</div>
+                      <div class="spinfo"><p>Korea Internet & Security Agency (KISA, KrCERT/CC) is a South Korean government agency under Ministry of ICT and Future planning, specializing in Internet security, critical infrastructure protection and Internet development. As a response to the growing stakes in the area of cyber security, KISA and Ministry of ICT and Future Planning (MISP as a Korean government department) are operating and planning to secure Internet environment from various threats that are targeting Korea. Through this presentation, Mr. Park would like to show how and what Korean government is doing in past 15 years.</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les20" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/Nikolay-Elenkov.png" class="circle"/><span class="_d-b">Nikolay Elenkov</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">Security x LINE Platform</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les20" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Nikolay-Elenkov.png" class="circle"/><span class="_d-b">Nikolay Elenkov </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Nikolay Elenkov has been working on enterprise security projects for the past 10 years. He has developed security software on various platforms, ranging from smart cards and HSMs to Windows and Linux servers. He became interested in Android shortly after Android’s initial public release and is the author of <i>Android Security Internals.</i> He currently works at LINE's Security Department.</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Security x LINE Platform</div>
+                      <div class="spinfo"><p>This presentation will briefly introduce the security features recently integrated in LINE's messaging and VoIP platform, as well as LINE's application security testing practices.</p>
+<p>The first part will focus on LINE's overall architecture, and the transport encryption improvements in LINE's gateway server (LEGY).</p>
+<p>We will also give an overview of LINE's end-to-end encryption implementation (Letter Sealing).</p>
+<p>The second part will give an overview of LINE's application security test process (risk assessment), focusing on game cheating countermeasures. Finally, we will briefly present our anti-spam/abuse efforts and bug bounty program.</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les21" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/Ryan_Olson.png" class="circle"/><span class="_d-b">Ryan Olson</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">Target Identification through Decoy File Analysis</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les21" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Ryan_Olson.png" class="circle"/><span class="_d-b">Ryan Olson </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Ryan is the director of Palo Alto Networks' threat intelligence team, responsible for collection, analysis and production of intelligence on adversaries targeting organizations around the world. Prior to joining Palo Alto Networks Ryan served as Senior Manager in Verisign’s iDefense Threat Intelligence service. His area of expertise is detecting and identifying actors and groups conducting cyber-crime and cyber-espionage operations. Ryan is a contributing author to the book Cyber Fraud: Tactics, Techniques and Procedures, and primary author of Cyber Security Essentials. He holds a Bachelor of Science degree in management information systems from Iowa State University, and a Master of Science degree in security informatics from The Johns Hopkins University.</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Target Identification through Decoy File Analysis</div>
+                      <div class="spinfo"><ul>
+<li>Description of “Decoy File” and how/why actors used them in targeted e-mail attacks.</li>
+<li>In many cases, we investigate exploit files which deploy decoys, but we do not know who the victim is.</li>
+<li>Examples of recent targeted e-mail attacks and the potential victims based on their decoy information.</li>
+</ul></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les22" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c _three">
+                      <div class="item"><img src="0composition/images/speaker/Lenart-Bermejo.png" class="circle"/><span class="_d-b">Lenart Bermejo</span></div>
+                      <div class="item"><img src="0composition/images/speaker/Mingyen-Hsieh.png" class="circle"/><span class="_d-b">Mingyen Hsieh</span></div>
+                      <div class="item"><img src="0composition/images/speaker/Razor-Huang.png" class="circle"/><span class="_d-b">Razor Huang</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">Operation Sentry Stopper: A Long-Standing Cyber Espionage</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les22" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Lenart-Bermejo.png" class="circle"/><span class="_d-b">Lenart Bermejo </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Currently, Lenart does APT investigation as well as cyber threat reverse engineering. His research focuses both on targeted attack intelligence and threat solutions.</span></div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Mingyen-Hsieh.png" class="circle"/><span class="_d-b">Mingyen Hsieh </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Mingyen Hsieh is an enthusiast in APT investigation, threat intelligence, reverse engineering and sandboxing. Currently, his goal is to dig into more quality intelligence and to develop an efficient intelligence processing system for the team.</span></div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Razor-Huang.png" class="circle"/><span class="_d-b">Razor Huang </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Razor Huang mainly focuses on targeted attack research, malware analysis and cyber threat correlation. He has delivered presentations at AVAR and AVTOKYO and he has been responsible for virus scanning engine development.</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Operation Sentry Stopper: A Long-Standing Cyber Espionage</div>
+                      <div class="spinfo"><p>We have been observing an attack against certain targets in the financial industry. Evidence suggests that this attack has been active since as early as 2009, and it remains very active today, utilizing several techniques to perform long-term espionage on its targets.</p>
+<p>This paper will talk about the targeted cyber-espionage we call Sentry Stopper. The paper will cover the different malware components used in the attack; their behaviours, which includes maintaining footholds in the network for long-term espionage; their heavy utilization of steganography; mapping and gaining access to the target's network using a network cracker component; stealing sensitive information using various methods; protecting themselves from detection and possible removal by disrupting security products. The paper will also cover other aspects of cyber-espionage such as targeted industries, regions, and other evidence we have acquired related to the campaign.</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les23" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/Leo-Liaw.png" class="circle"/><span class="_d-b">Leo Liaw</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">Memory Wars : 對記憶體攻擊手法與防禦技術的探討</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les23" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Leo-Liaw.png" class="circle"/><span class="_d-b">Leo Liaw </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Leo Liaw is the senior technical manager working in iSecurity INC. With 16 years in information technology and 12 of them is in the security company, including Symantec, 8e6 Technology, M86 Security and Trustwave. Leo acquired his MIS master degree in National Chung Cheng University, which is located in the middle of Taiwan. Leo used to study in secure web gateway and web application firewall. Currently, Leo focuses on Endpoint Defense and Response solution.</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Memory Wars : 對記憶體攻擊手法與防禦技術的探討</div>
+                      <div class="spinfo"><p>&ldquo;Memory attack&rdquo; has always been the core of attack action. You can do whatever you want if you dominated in the memory war. For example, executing malware, leaking confidential information or crashing the system.</p>
+<p>In this talk, we’ll indicate &ldquo;process internals&rdquo; and &ldquo;PE file header format&rdquo;. Then we’ll discuss how Microsoft try to mitigate the memory attack with its proprietary EMET (Enhanced Mitigation Experience Toolbox) /ASLR (Address Space Layout Randomization) tools. However, these tools are proved to be limited and incomplete. We need to do better.</p>
+<p>We are pleased to unveil the new concept of APT/Malware defense. And how does this evolutional technology shield the memory, prevent the hacker and advance over old solutions.</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les24" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/Mitsuaki-ASHIDA.png" class="circle"/><span class="_d-b">Mitsuaki ASHIDA</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">Cybersecurity Strategy in Japan</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les24" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Mitsuaki-ASHIDA.png" class="circle"/><span class="_d-b">Mitsuaki ASHIDA </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Deputy Counsellor, National center for Incident readiness and Strategy for Cybersecurity (NISC); Since joining NISC in July 2015, he committed to establish the new cybersecurity strategy adopted in September 2015. He also involved the revise of the Basic Act on Cybersecurity implemented in this October, which aims to enhance the cybersecurity measures for the government-affiliated organizations. Prior to join NISC, he involved competition regulation in mobile telecommunications market, including revising the regulation of MVNOs.</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Cybersecurity Strategy in Japan</div>
+                      <div class="spinfo"><p>The Government of Japan is working on cybersecurity policy under framework prescribed by the Basic Act on Cybersecurity enacted in 2014 and the Cybersecurity Strategy adopted as a cabinet decision in September 2015. I will discuss comprehensive framework of cybersecurity policy in Japan.</p>
+<p>Following the revision of the Basic Act this year, we are continuing to working on various issues, such as enhancing cybersecurity workforce in both public and private sector; strengthening critical information infrastructures protection.</p>
+<p>Our target year for the cybersecurity policy is 2020, when Japan will host Olympic and Paralympic games in Tokyo. Japan will also host the Rugby World Cup in 2019. We consider cybersecurity is essential part of the success to those events, and working on ensuring cybersecurity.</p>
+<p>In the session, I will discuss basic framework on cybersecurity in Japan, including the Basic Act on Cybersecurity and the Cybersecurity Strategy, followed by current issues on cybersecurity, including critical information infrastructure protection, workforce enhancement, and security framework towards 2020.</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les25" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/Earl-Carter.png" class="circle"/><span class="_d-b">Earl Carter</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">A Bright New Dawn of Security: Comprehensive Threat Intelligence – Worldwide case study</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les25" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Earl-Carter.png" class="circle"/><span class="_d-b">Earl Carter </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail"><p>Earl Carter has always had a passion for solving puzzles and understanding how things operate. Mr. Carter quickly learned that identifying security weaknesses is just like solving puzzles. Almost 20 years ago, he was introduced to network security when he accepted a position at the Airforce Information Warfare center in San Antonio, Texas. In 1998, Mr. Carter starting working Cisco and became one of the founding members on the Security Technology Assessment Team (STAT).</p>
+<p>After spending 15 years identifying new security threats and assisting product teams in hardening their devices and software to mitigate those identified security threats, Mr. Carter became a Threat Researcher for Cisco Talos. Now he spends his time hunting for new threats against live customer networks by examining various intelligence feeds and data sources. Among Mr. Carter’s significant contributions to Cisco are multiple security patents and authoring three Cisco Press Security Books along with co-authoring three more Cisco Press Security Books.</p></span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">A Bright New Dawn of Security: Comprehensive Threat Intelligence – Worldwide case study</div>
+                      <div class="spinfo"><p>&nbsp;</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les26" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/Jiun-Ming_Chen.png" class="circle"/><span class="_d-b">陳君明<br/>(Jiun-Ming Chen)</span></div>
+                      <div class="item"><img src="0composition/images/speaker/Alex-Liu.png" class="circle"/><span class="_d-b">劉世偉<br/>(Alex Liu)</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">Blockchain Security: From Curves to Contracts</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les26" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Jiun-Ming_Chen.png" class="circle"/><span class="_d-b">陳君明<br/>(Jiun-Ming Chen) </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail"><p>國立臺灣大學教授</p>
+<p>國立臺灣大學數學系學士與碩士、美國 Purdue University 數學博士。任職於臺大數學系、以嵌入式系統安全為核心業務的「銓安智慧科技」。臺大「教學傑出獎」得主，平均每兩百位臺大教師僅一位獲獎。在臺大教授的課程包括：密碼學導論、橢圓曲線密碼學、破密學專題、後量子密碼學、金融科技導論、電資學院微積分、通識課程數學與文明。臺北市臺大校友會高爾夫球隊發起人之一、該球隊現任總幹事。中華民國橋藝協會理事、代表臺灣參加本屆世界盃之現役橋牌國家代表隊隊長。</p></span></div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Alex-Liu.png" class="circle"/><span class="_d-b">劉世偉<br/>(Alex Liu) </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail"><p>帳聯網公司創辦人劉世偉出生於台北，2002年畢業於加州史丹佛大學電機研究所，曾在日立、三星、西門子國際資通訊技術巨擘任職，至德日等先進科技大國工作見習。畢業後，進入中華民國中央研究院孟懷縈院士創辦的創銳訊 (Atheros) 任職，培養深厚的資通訊技術能力及產業經驗。在高通 (Qualcomm) 併購創銳訊後，進入高通擔任中國上海的行銷總監，負責年營業額三千五百萬美元的產品線。洞見區塊鏈技術的無限可能，便毅然決然放棄外商高階主管的職位，返家貢獻台灣社會。2014  年創辦需擬貨幣交易服務公司  MaiCoin，MaiCoin 研發出一套可以追蹤不法交易的系統「BlockSeer」，協助主管機關或比特幣受害者追查比特幣的交易軌跡。</p>
+<p>兩年間潛心鑽研帳聯網技術發展應用，並積極結識國際舞台上區塊鏈的專家，不斷充實技術實力，見時機成熟，於 2016 年 9 月成立帳聯網路科技股份有限公司，以以太坊 (Ethereum) 的技術為基礎，期望為推動台灣金融創新基礎建設環境盡一份心力。</p></span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Blockchain Security: From Curves to Contracts</div>
+                      <div class="spinfo"><ul>
+<li>ECDSA for Transaction Signing (including hardware signing)</li>
+<li>Hash Function Collision Resistance</li>
+<li>Privacy Preserving Features (Zero-Knowledge Proofs)</li>
+<li>Consensus Algorithms</li>
+<li>Smart Contract Correctness</li>
+<li>Quantum Computing vs ECC</li>
+<li>Side-Channel Attacks vs Signing</li>
+<li>Ephemeral key of ECDSA</li>
+</ul></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les27" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/PeiKan-Tsung.png" class="circle"/><span class="_d-b">PeiKan Tsung</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">An Intelligence-Driven Approach to Cyber Defense</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les27" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/PeiKan-Tsung.png" class="circle"/><span class="_d-b">PeiKan Tsung </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail"><p>台灣威瑞特系統科技研究長，曾經服務公職於刑事警察局科技犯罪防制中心、警政署資訊室及中央研究院計算中心等。專長為惡意程式分析、軟體逆向工程、漏洞分析、程式開發與資安鑑識調查。</p></span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">An Intelligence-Driven Approach to Cyber Defense</div>
+                      <div class="spinfo"><p>&nbsp;</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les28" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/Katie-Moussouris.png" class="circle"/><span class="_d-b">Katie Moussouris</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">Security is a Never-ending Story</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les28" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Katie-Moussouris.png" class="circle"/><span class="_d-b">Katie Moussouris </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Katie Moussouris, a noted authority on vulnerability disclosure and bug bounties, is the CEO of Luta Security, Inc. Luta Security advises companies, lawmakers, and governments on the benefits of hacking and security research to help make the internet safer for everyone. Katie is a hacker—first hacking computers, now hacking policy and regulations. Katie's most recent work was in helping the US Department of Defense start the government's first bug bounty program, called &quot;Hack the Pentagon,&quot; and has recently helped the largest branch the US military launch &quot;Hack the Army&quot;. Katie is also part of the official US Wassenaar delegation to renegotiate a controversial arms control agreement that threatens to interfere with internet defense. Her earlier Microsoft work encompassed industry-leading initiatives such as Microsoft's bug bounty programs and Microsoft Vulnerability Research. She is also a subject matter expert for the US National Body of the International Standards Organization (ISO) in vuln disclosure (29147), vuln handling processes (30111), and secure development (27034). Katie is a visiting scholar with MIT Sloan School, doing research on the vulnerability economy and exploit market. She is a New America Foundation Fellow and Harvard Belfer Affiliate. Katie is on the CFP review board for RSA, O'Reilly Security Conference, Shakacon, Hack in the Box, and is an adviser to the Center for Democracy and Technology.</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Security is a Never-ending Story</div>
+                      <div class="spinfo"><p>We have a saying that security is a journey, not a destination. Yet we act as if security is a process to be completed once, checked perhaps once a year, and that holes are an anomaly. We know this is how most treat their security because the majority of organizations and governments worldwide don't have a process in place to receive vulnerability reports from helpful hackers. Join Katie Moussouris, a hacker turned policy maker turned CEO, as she guides you on a security journey. The Never-ending Story of security doesn't end, and we're going to need more than a luck dragon to help us through our journey.</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les29" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/Fyodor-Yarochkin.png" class="circle"/><span class="_d-b">Fyodor Yarochkin</span></div>
+                      <div class="item"><img src="0composition/images/speaker/Vladimir_Kropotov.png" class="circle"/><span class="_d-b">Vladimir Kropotov</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">Lurk, Carbanak and Attacks on Banking Infrastructure</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les29" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Fyodor-Yarochkin.png" class="circle"/><span class="_d-b">Fyodor Yarochkin </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail">Fyodor is a researcher at Academia Sinica and a Ph.D. candidate at EE, National Taiwan University. An early Snort developer, and open source evangelist as well as a &quot;happy&quot; programmer. Prior to that, Fyodor professional experience includes several years as a threat analyst at Armorize and over eight years as an information security analyst responding to network, security breaches and conducting remote network security assessments and network intrusion tests for the majority of regional banking, finance, semiconductor and telecommunication organizations. Fyodor is an active member of local security community and has spoken at a number of conferences regionally and globally.</span></div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Vladimir_Kropotov.png" class="circle"/><span class="_d-b">Vladimir Kropotov </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail"><p>Vladimir was born in 1980. He holds a university degree in applied mathematics and information security. Active for over 15 years in information security projects and research, he previously built and led incident response teams at some of Fortune 500 companies. Vladimir has recently joined Trend Micro FTR team, but did this research as Positive Technologies, where he was head of Computer Security Incident Response Team (CSIRT) since 2014. He participates in various projects for leading financial, industrial, and telecom companies.</p>
+<p>Vladimir regularly appears at high-profile international conferences such as FIRST, CARO, HITB, Hack.lu, PHDays, ZeroNights, POC, Hitcon, and many others.</p></span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">Lurk, Carbanak and Attacks on Banking Infrastructure</div>
+                      <div class="spinfo"><p>In this presentation we give a historical overview of the ’Lurk’ group: a group of malware operators conducting malicious network activities primarily in .RU region. Having ability to monitor network traffic of several large organizations we have been observing this group activity since 2011 until the middle of 2016. We discuss what methods the group used to dissimilate their malware and how the techniques of the group evolved during this time. We also point out potential links between this group and other threat actors and discuss potential relationship between this group activities and a number of attacks on banking infrastructure that we have observed in 2016.</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!--moreinfo item start-->
+                  <div id="les30" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">一銀 ATM 盜領案科技偵查實錄</div>
+                      <div class="spinfo"><p>一銀 ATM 遭駭客犯罪集團盜領案，此案對國內治安及金融產業均造成亟大震撼，民眾對金融交易安全的信任感瞬間動搖，但在全體刑事警察人員通力合作下，在短時間內順利追回近 8 千萬的贓款，媒體鎂光燈均聚焦在警方如何透過監視器等追贓緝凶。</p>
+<p>由於相關媒體少有報導本局科技偵查作為，藉此次大會本局將綜整本案現場調研 (Incident Response) 過程、日誌檔分析 (Log Analysis) 結果、逆向工程 (Reverse Engineering) 及數位鑑識 (Digital Forensics) 等方面做簡要報告，供金融產業或資安相關人員參考。</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+                  <!-- linklist item start-->
+<a href="#les31" class="spakerbox fancybox">
+                    <div class="speakerimg _t-c">
+                      <div class="item"><img src="0composition/images/speaker/Li-Wei-Bin.png" class="circle"/><span class="_d-b">李維斌 博士</span></div>
+                    </div>
+                    <div class="speakertitle _t-c">The Challenge and Future of Government Cyber Security</div></a>
+                  <!-- linklist item end-->
+                  <!--moreinfo item start-->
+                  <div id="les31" class="_d-n moinbox">
+                    <div class="molessinfo">
+                      <div class="speakerimg _t-c">
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-sm-2"><img src="0composition/images/speaker/Li-Wei-Bin.png" class="circle"/><span class="_d-b">李維斌 博士 </span>
+                            </div>
+                            <div class="col-sm-10"><span class="_d-b detail"><p>臺北市政府資訊局局長</p>
+<p>學歷:</p>
+<p>私立中原大學資訊工程學系畢業<br/>國立中正大學資訊工程研究所碩士<br/>國立中正大學資訊工程研究所博士</p>
+<p>經歷:</p>
+<p>逢甲大學資訊工程學系教授<br/>逢甲大學資訊處資訊長<br/>逢逢甲大學資訊處副資訊長<br/>逢甲大學資通安全研究中心主任<br/>逢甲大學研發處校務企劃組組長<br/>逢甲大學研發處分析評量組組長<br/>逢甲大學資訊處資源管理中心主任<br/>Carnegie Mellon University, USA 訪問學者<br/>University of British Columbia, Canada 訪問學者</p></span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color:#ccfc8d" class="speakertitle _t-c">The Challenge and Future of Government Cyber Security</div>
+                      <div class="spinfo"><p>從台灣首都資訊長的角度，闡述政府機關在資安所遇到的挑戰：從預算、持續變動的威脅、縱深防護的謬誤、監控機制的情形到人的問題，最後闡述未來規劃可能的方向。</p></div>
+                    </div>
+                  </div>
+                  <!--moreinfo item end-->
+                  
+                  
+                  
+            <!--div.gcomesoon 
+            div(style="display:table;width:100%;height:100%;")
+              div(style="display:table-cell;vertical-align: middle;text-align:left;"): strong ※ 主辦單位保留活動議程調整之權利。 
+            -->
+          </div>
+        </div>
+      </div>
+      <div class="gcomesoon"> 
+        <div style="display:table;width:100%;height:100%;">
+          <div style="display:table-cell;vertical-align: middle;text-align:left;"><strong>※ 主辦單位保留活動議程調整之權利。 </strong></div>
+        </div>
+      </div>
+    </div>
+    <footer class="layout--footer_bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="footpoint _flex"><a href="https://hitcon.org/2016/" target="_blank" class="_d-b item"><span class="title">About <br/>HITCON</span></a><a href="http://hitcon.kktix.cc/events/hitcon-pacific-2016" target="_blank" class="_d-b item"><span class="title">HITCON <br/>Pacific</span><span class="_d-b msg">Dec. 01st - 02nd</span></a><a href="training.htm" class="_d-b item"><span class="title">HITCON <br/>Training</span><span class="_d-b msg">Nov. 27th - 30th</span></a><a href="http://ctf.hitcon.org/" target="_blank" class="_d-b item"><span class="title">Capture <br/>the flag</span><span class="_d-b msg">Dec. 02nd - 03rd</span></a><a href="partner.htm" class="_d-b item"><span class="title">Sponsor</span></a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

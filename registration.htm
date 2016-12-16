@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>HITCON Pacific 2016 - The Fifth Domain: Cyber | Homeland Security</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta name="description" content="Dec. 1-2 2016 in 台北文創。最具代表資安盛會HITCON Pacific 2016即將開始！與CTF全球10強總決戰共同舉辦，企盼您的加入，點亮台灣資安軟硬實力。"/>
+    <meta name="keywords" content="主辦單位 (Organizing Committee)： 台灣駭客協會 Hacks in Taiwan Association CHROOT Security Group  iThome 電週文化事業"/>
+    <meta property="og:title" content="HITCON Pacific 2016 - The Fifth Domain: Cyber | Homeland Security"/>
+    <meta property="og:description" content="Dec. 1-2 2016 in 台北文創。最具代表資安盛會HITCON Pacific 2016即將開始！與CTF全球10強總決戰共同舉辦，企盼您的加入，點亮台灣資安軟硬實力。"/>
+    <meta property="og:image:type" content="image/png"/>
+    <meta property="og:image:width" content="611"/>
+    <meta property="og:image:height" content="366"/>
+    <link rel="image_src" href="https://hitcon.org/2016/pacific/0composition/images/v160921/kv.jpg"/>
+    <meta property="og:image" content="https://hitcon.org/2016/pacific/0composition/images/v160921/kv.jpg"/>
+    <meta property="og:url" content="https://hitcon.org/2016/pacific/"/>
+    <link rel="stylesheet" href="0composition/style/bootstrap.min.css"/>
+    <link rel="stylesheet" href="0composition/style/layout.css"/>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/pixi.js/3.0.11/pixi.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script src="0composition/scripts/layout.js"></script>
+    <style>
+      .highbtn,.otherbtn{
+          border:2px #ffffff solid;
+          padding-top:0.3em;
+          padding-bottom:0.3em;
+      }
+      .highbtn ._td{
+          padding:0.5em;
+      }
+      .highbtn img:nth-child(1){
+          margin-right:0.5em;
+      }
+      .highbtn img:nth-child(2){
+          margin-top:0.5em;
+      }
+      .highbtn ._boxbtn{
+          border:2px #2aff00 solid;
+          color:#2aff00;
+      }
+      ._boxbtn ._btn{
+          margin:0 auto;
+          text-align:center;
+      }
+      /*._boxbtn ._btn:before{
+          background-image: url(0composition/images/nav_cta_icon3.png);
+      }*/
+      ._usestyle01{
+          width:41.666666667%;
+      }
+      .date{
+          display:block;
+      }
+      .otherbtn{
+          padding:1em;
+          opacity: 0.5;
+      }
+      .otherbtn .date{
+          padding-top:0.3em;
+          padding-bottom:0.3em;
+      }
+      .highbtn.hoverstyle01:before{
+          left:0;right:0;
+      }
+      .highbtn.hoverstyle01:hover:before{
+          width:95%;
+      }
+      .ulstyle01{
+          color:#00CCFF;
+      }
+      ._highlight{
+          color:#ffff00;
+      }
+      .ulstyle01 li+li,.olstyle01 li+li{
+          margin-top:1em;
+      }
+      .ulstyle01 span,.olstyle01 li{
+          color:#ffffff;
+      }
+      @media screen and (max-width: 1199px){
+          .highbtn img:nth-child(1){
+              width:200px;
+          }
+          .highbtn img:nth-child(2){
+              width:100px;
+          }
+          ._usestyle01,._usestyle02{
+              font-size:90%; 
+          }
+      }
+      @media screen and (max-width: 992px){
+          .highbtn img:nth-child(1){
+              width:auto;
+          }
+          .highbtn img:nth-child(2){
+              width:auto;
+          }
+          ._usestyle01,._usestyle02{
+              font-size:100%;
+              display:block;
+              width:100%;
+          }
+          ._usestyle01{
+              text-align:center;
+          }
+          .otherbtn{
+              margin-bottom:15px;
+          }
+      }
+    </style>
+  </head>
+  <body class="registration">
+    <header class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="website--title">
+            <h1>HITCON Pacific 2016 - The Fifth Domain: Cyber | Homeland Security</h1>
+            <p>12.1-2 @ 台北文創大樓6F</p>
+          </div>
+          <div id="kvsize">
+            <div id="kvparent"></div>
+          </div>
+          <div id="sectitle"><span>HITCON PACIFIC 2016</span></div>
+          <nav class="main_nav">
+            <button id="menuicon"><span class="_svgbox"><span class="svgchild">
+                  <!--漢堡svg，開始-->
+                  <svg version="1.1" viewbox="0 0 35 31">
+                    <path id="menu--line0" fill="#cccccc" d="M2.5,13h30c1.381,0,2.5,1.119,2.5,2.5S33.881,18,32.5,18h-30C1.119,18,0,16.881,0,15.5S1.119,13,2.5,13z" transform="translate(0,-10) rotate(0,17.5,15.5)"></path>
+                    <path id="menu--line1" fill="#cccccc" d="M2.5,13h30c1.381,0,2.5,1.119,2.5,2.5S33.881,18,32.5,18h-30C1.119,18,0,16.881,0,15.5S1.119,13,2.5,13z" opacity="1"></path>
+                    <path id="menu--line2" fill="#cccccc" d="M2.5,13h30c1.381,0,2.5,1.119,2.5,2.5S33.881,18,32.5,18h-30C1.119,18,0,16.881,0,15.5S1.119,13,2.5,13z" transform="translate(0,10) rotate(0,17.5,15.5)"></path>
+                  </svg>
+                  <!--漢堡svg，結束--></span></span></button>
+            <ul id="posmenu" class="_clear_ul">
+              <li class="default_btn"><a href="index.htm"><span>首頁</span></a></li>
+              <li class="reg_btn"><a href="registration.htm"><span>報名</span></a></li>
+              <li class="agenda_btn"><a href="agenda.htm"><span>議程與講師</span></a></li>
+              <li class="training_btn"><a href="training.htm"><span>HITCON Training</span></a></li>
+              <li class="partner_btn"><a href="partner.htm"><span>贊助商</span></a></li>
+              <li class="action_large_btn"><a href="action.htm"><span>現場活動及好康</span></a></li>
+              <li class="history_btn"><a href="history.htm"><span>大會歷史</span></a></li>
+              <li class="location_btn"><a href="location.htm"><span>場地資訊</span></a></li>
+              <li class="history_btn"><a href="en/index.htm"><span>English</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="_table highbtn"><span class="_td _va-m _t-r _usestyle01"><img src="0composition/images/registration_btntitle15.png" title="一般票"/><img src="0composition/images/registration_btntitle16.png" title="NT$ 15,000"/>
+              <h2 class="_d-n">早鳥報名 NT$ 10,000</h2><span class="date">2016/11/19 00:00 ~ 現場</span></span><span style="margin-top:15px;" class="_soldout">
+              <p style="text-align:center"><img src="0composition/images/soldout.png" title="soldout" style="vertical-align: top;"/></p></span><span class="_td _va-m _usestyle01">2016 HITCON CTF 全球 10 強網路攻防決戰，<br/>入場名額僅開放 HITCON Pacific 購票者參觀！<br/>參加大會，現場加碼獲得駭客專屬好禮<br/>
+              <!--a._linkstyle02(href='action.htm')
+              | » 額滿恕不開放現場票，欲購從速！
+              br
+              | » 高效能智慧空拍機，等你帶回家！
+              
+              --></span></div>
+        </div>
+      </div>
+      <div class="row">
+        <div style="margin-top:15px;" class="col-xs-12">
+          <div class="row">
+            <div class="col-md-4"><a class="_d-b otherbtn">
+                <h2 class="_d-n">超級早鳥 NT$ 8,000</h2><img src="0composition/images/registration_btntitle11.png" title="超級早鳥" class="_rwdimg"/><span class="_t-c date">2016/10/03 20:00 ~ 10/14 23:59</span><img src="0composition/images/registration_btntitle12.png" title="NT$ 8,000" class="_rwdimg"/></a></div>
+            <div class="col-md-4"><a class="_d-b otherbtn">
+                <h2 class="_d-n">早鳥報名 NT$ 10,000</h2><img src="0composition/images/registration_btntitle03.png" title="早鳥報名" class="_rwdimg"/><span class="_t-c date">2016/10/15 00:00 ~ 11/18 23:59</span><img src="0composition/images/registration_btntitle04.png" title="NT$ 10,000" class="_rwdimg"/></a></div>
+            <div class="col-md-4"><a class="_d-b otherbtn">
+                <h2 class="_d-n">團體票 NT$ 36,000/3張</h2><img src="0composition/images/registration_btntitle07.png" title="團體票" class="_rwdimg"/><span class="_t-c date">2016/11/19 00:00 ~ 現場</span><img src="0composition/images/registration_btntitle08.png" title="NT$ 36,000/3張" class="_rwdimg"/></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>報名注意事項</h2>
+          <ul class="ulstyle01">
+            <li><span>網路報名請妥善填寫真實資料，並攜帶有照片證件備用。</span></li>
+            <li><span>現場報名 : 會議舉行當日可至現場報名 NT$ 15,000 元，現場報名是網路售票有剩餘才開放，額滿為止，額滿後恕不開放入場。</span></li>
+            <li><span>海外參加者若無法匯款，請來信大會服務信箱(<a class="_linkstyle" href="mailto:service@hitcon.org">service@hitcon.org</a>)，並提供參加名單，我們將為您服務。</span></li>
+            <li><span>請與會人員詳細閱讀「<a class="_linkstyle" href="https://docs.google.com/document/d/1D7_FEZPOecB5bgwKQWO338y_lN1OXWmKWQStn74Tgl4/pub" target="_blank">HITCON 個人資料保護聲明</a>」。</span></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h2>與會注意事項</h2>
+          <ul class="ulstyle01">
+            <li><span>活動為多軌議程，大會不保證參加者座位。</span></li>
+            <li><span>請記住您的報名確認函內容，以供查驗身分。</span></li>
+            <li><span>與會人員往返交通費及需住宿請自理。</span></li>
+            <li><span>本會議提供午餐及下午茶點。</span></li>
+            <li><span>發票開立：本活動由台灣駭客年會開立發票。需統一編號者請務必填寫統編等資訊。</span></li>
+          </ul>
+        </div>
+        <div class="col-xs-12">
+          <h2>HITCON Pacific 2016 個人資料條款</h2>
+          <ol class="olstyle01">
+            <li>本次活動將於會場議程教室入口以及贊助商攤位處設置NFC讀卡機，用以感應學員識別證。</li>
+            <li>若您同意於議程教室入口處過卡，即代表您同意主辦單位「社團法人台灣駭客協會」以及「電週文化事業股份有公司」得將您因參加本活動所提供之個人資料，進行蒐集、處理及利用。並同意主辦單位寄發資訊安全相關活動、課程有關之eDM或服務有關訊息至您所填寫之電子信箱。亦得以其認為適當之方式以電話或其他通訊方式提供資訊安全相關之活動、課程相關訊息給您。<br/>而您得就因本次活動報名所提供之個人資料依法向主辦單位「社團法人台灣駭客協會」以及「電週文化事業股份有限公司」以書面或電子文件請求行使：查詢或請求閱覽、製給複製本、補充或更正、請求停止蒐集、處理或利用、請求刪除等權利。</li>
+            <li>若您同意於活動首日主題演說議程教室入口處刷卡，即代表您同意主辦單位將您因參加本活動所提供之個人資料轉交予本次活動之天龍級贊助商（台灣思科系統股份有限公司），進行蒐集、處理及利用。並同意本活動之天龍級贊助商（台灣思科系統股份有限公司）寄發資訊安全相關活動、課程有關之eDM或服務有關訊息至您所填寫之電子信箱。亦得以其認為適當之方式以電話或其他通訊方式提供資訊安全相關之活動、課程相關訊息給您。而您得就因本次活動報名所提供之個人資料依法向本次活動天龍級贊助商（台灣思科系統股份有限公司）以書面或電子文件請求行使：查詢或請求閱覽、製給複製本、補充或更正、請求停止蒐集、處理或利用、請求刪除等權利。</li>
+            <li>
+               
+              若您同意於本活動贊助商攤位處刷卡，即代表您同意主辦單位將您因參加本活動所提供之個人資料轉交予本次活動之贊助商，進行蒐集、處理及利用。並同意本活動之贊助商寄發資訊安全相關活動、課程有關之eDM或服務有關訊息至您所填寫之電子信箱。亦得以其認為適當之方式以電話或其他通訊方式提供資訊安全相關之活動、課程相關訊息給您。而您得就因本次活動報名所提供之個人資料依法向本次活動贊助商以書面或電子文件請求行使：查詢或請求閱覽、製給複製本、補充或更正、請求停止蒐集、處理或利用、請求刪除等權利。
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <footer class="layout--footer_bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="footpoint _flex"><a href="https://hitcon.org/2016/" target="_blank" class="_d-b item"><span class="title">About <br/>HITCON</span></a><a href="http://hitcon.kktix.cc/events/hitcon-pacific-2016" target="_blank" class="_d-b item"><span class="title">HITCON <br/>Pacific</span><span class="_d-b msg">Dec. 01st - 02nd</span></a><a href="training.htm" class="_d-b item"><span class="title">HITCON <br/>Training</span><span class="_d-b msg">Nov. 27th - 30th</span></a><a href="http://ctf.hitcon.org/" target="_blank" class="_d-b item"><span class="title">Capture <br/>the flag</span><span class="_d-b msg">Dec. 02nd - 03rd</span></a><a href="partner.htm" class="_d-b item"><span class="title">Sponsor</span></a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
